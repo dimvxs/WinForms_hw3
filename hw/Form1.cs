@@ -241,7 +241,7 @@ namespace hw
                 if (xCount == 2 && emptySpot != -1)
                 {
                     moves[emptySpot] = true;
-                    buttons[emptySpot].Image = imgO;
+                    buttons[emptySpot].Image = imgO; 
                     buttons[emptySpot].Enabled = false;
                     return true;
                 }
